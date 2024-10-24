@@ -33,6 +33,10 @@ PicLiveCode 是一个简单的图片上传和二维码生成服务。用户可�
 
 1. 在项目根目录下执行：
    ```
+   # 对于 Windows 用户
+   go build -o piclivecode.exe
+   
+   # 对于 macOS 和 Linux 用户
    go build -o piclivecode
    ```
 2. 这将生成一个名为 `piclivecode` 的可执行文件。
