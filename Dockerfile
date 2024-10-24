@@ -28,6 +28,9 @@ COPY --from=builder /app/main .
 # 创建上传目录
 RUN mkdir -p ./uploads
 
+# 复制 upload.html 文件
+COPY upload.html .
+
 # 暴露端口
 EXPOSE 8080
 
